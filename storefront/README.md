@@ -2,7 +2,7 @@
 
 ## Notes
 
-#### - contents of every app
+#### - **contents of every app**
 
 - admin.py
   - <>
@@ -18,13 +18,13 @@
 
     ![Response & Request](./.resource/screenshots/request&response.png)
 
-#### - when a new app is created ...
+#### - **when a new app is created ...**
 
 the new app is required to be registered in the `settings.py` of the main app
 
 ![](./.resource/screenshots/new_app_in_setting.png)
 
-#### - Setting up debugging & debugging Django applications in VSCode in 10 steps
+#### - **Setting up debugging & debugging Django applications in VSCode in 10 steps**
 
 1. open Run and Debug in the left tool bar
 2. click on create a launch.json file
@@ -37,7 +37,7 @@ the new app is required to be registered in the `settings.py` of the main app
 9. debug each line of code by step over, step into & step out as required
 10. remove the break point once debugging is completed
 
-## Somthing Useful
+## Something Useful
 
 - to check the path for Python that is currently in use : execute `which python` command in the terminal
 - to create a new app : execute `python manage.py startapp [NAME YOUR APP]` command in the terminal
