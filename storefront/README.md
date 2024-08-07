@@ -28,11 +28,3 @@ the new app is required to be registered in the `settings.py` of the main app
 ## References
 
 - [Programming with Mosh : Python Django Tutorial for Beginners](https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=867s)
-
-## …or push an existing repository from the command line
-
-```
-git remote add origin https://github.com/ChanYungKim/Road-to-Django-Mastery.git
-git branch -M main
-git push -u origin main
-```
