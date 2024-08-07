@@ -20,7 +20,7 @@
 
 #### - when a new app is created ...
 
-    the new app is required to be registered in the `settings.py` of the main app
+the new app is required to be registered in the `settings.py` of the main app
 
 #### - Setting up debugging & debugging Django applications in VSCode in 10 steps
 
