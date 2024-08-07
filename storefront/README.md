@@ -22,6 +22,8 @@
 
 the new app is required to be registered in the `settings.py` of the main app
 
+![](./.resource/screenshots/new_app_in_setting.png)
+
 #### - Setting up debugging & debugging Django applications in VSCode in 10 steps
 
 1. open Run and Debug in the left tool bar

@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     # "django.contrib.sessions", # not really in use anymore
     "django.contrib.messages",
     "django.contrib.staticfiles",
-    "playground"
+    "New App"
 ]
 
 MIDDLEWARE = [
