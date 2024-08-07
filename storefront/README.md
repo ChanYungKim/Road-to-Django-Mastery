@@ -4,14 +4,16 @@
 
 ###### contents of every app
 
-- admin.py --->
-- apps.py --->
-- models.py --->
-- tests.py --->
-- views.py ---> collection of view functions (view function : a function that takes a request and returns a response)
-  a.k.a Request Handler
+- admin.py
+  - <>
+- apps.py
+  - <>
+- tests.py
+  - <>
+- views.py
+  - collection of view functions (view function : a function that takes a request and returns a response) a.k.a Request Handler
 
-  ![Response & Request](./.resource/screenshots/request&response.png)
+    ![Response & Request](./.resource/screenshots/request&response.png)
 
 ###### when a new app is created ...
 
