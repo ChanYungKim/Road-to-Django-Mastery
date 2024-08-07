@@ -2,22 +2,38 @@
 
 ## Notes
 
-###### contents of every app
+#### contents of every app
 
 - admin.py
   - <>
 - apps.py
   - <>
+- models.py
+  - <>
 - tests.py
   - <>
 - views.py
+
   - collection of view functions (view function : a function that takes a request and returns a response) a.k.a Request Handler
 
     ![Response & Request](./.resource/screenshots/request&response.png)
 
-###### when a new app is created ...
+#### when a new app is created ...
 
 the new app is required to be registered in the `settings.py` of the main app
+
+#### Setting up debugging & debugging Django applications in VSCode in 10 steps
+
+1. open Run and Debug in the left tool bar
+2. click on create a launch.json file
+3. select Python from dropdown
+4. select Django from dropdown
+5. now launch.json file is created in .vscode folder
+6. [optional] open launch.json add a random port (such as "9000") in the args to avoid crashing with the port in use (by default "8000")
+7. add a break point in the code where the beginning of debugging is required
+8. run and debug
+9. debug each line of code by step over, step into & step out as required
+10. remove the break point once debugging is completed
 
 ## Somthing Useful
 
