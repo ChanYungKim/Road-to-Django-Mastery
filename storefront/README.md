@@ -8,8 +8,7 @@
   - <>
 - apps.py
   - <>
-- models.py
-  - <>
+- ## models.py
 - tests.py
   - <>
 - views.py
@@ -24,7 +23,7 @@ the new app is required to be registered in the `settings.py` of the main app
 
 ![](./.resource/screenshots/new_app_in_setting.png)
 
-#### - **Setting up debugging & debugging Django applications in VSCode in 10 steps**
+#### - **setting up debugging & debugging Django applications in VSCode in 10 steps**
 
 1. open Run and Debug in the left tool bar
 2. click on create a launch.json file
@@ -36,6 +35,12 @@ the new app is required to be registered in the `settings.py` of the main app
 8. run and debug
 9. debug each line of code by step over, step into & step out as required
 10. remove the break point once debugging is completed
+
+#### - **organizing data models**
+
+- **MONOLITH** should be avoided --> do **one** thing and do it **well**
+- however, breaking up too much might lead too much of coupling and dependencies
+- !!! a good design is one with **MINIMAL COUPLING** and **HIGH COHESION** !!!
 
 ## Something Useful
 
